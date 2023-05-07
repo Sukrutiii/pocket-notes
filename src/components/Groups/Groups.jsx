@@ -80,7 +80,7 @@ export default function Groups({ setDisplayNote,groupId ,setGroupId, color, setC
                             <p>Create New Notes group</p>
                             <label>Group Name<input type='text' placeholder="Enter your group name...."
                                 required onChange={(e) => setGroupName(e.target.value)}></input></label>
-                            <div className="color__circle__container">
+                            <div className="color__circle__container">Choose Colour
                                 {
                                     colors.map((color) => <div className='color__circle' onClick={() => setColor(color)} style={{ backgroundColor: color }}></div>)
                                 }
