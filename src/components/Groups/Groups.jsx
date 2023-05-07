@@ -16,7 +16,7 @@ export default function Groups() {
 
     const [popup, setPopup] = useState(false);
     const [groupName, setGroupName] = useState('');
-    const [groups, setGroups] = useState(getData());
+    const [groups, setGroups] = useState([]);
 
     const togglePopup = () => {
         setPopup(!popup)
@@ -48,12 +48,12 @@ export default function Groups() {
             {/* <ViewGroup/> */}
             {popup &&
                 <div className='overlay'>
-                <div className='popupContainer'>
+                <div className='popupContainer' onSubmit={handleAddGroup}>
                     <p>Create New Notes group</p>
-                    <label>Group Name<input type='text' value="Enter your group name...."
+                    <label>Group Name<input type='text' 
                     required onChange={(e)=>setGroupName(e.target.value)} value={groupName}></input></label>
                     <p className='chooseColor'>Choose Colour{colors.map}</p>
-                    <button className='create-btn' onClick={togglePopup} onSubmit={handleAddGroup}>Create</button>
+                    <button type='submit' className='create-btn' onClick={togglePopup}>Create</button>
                 </div>
             </div>
             }
