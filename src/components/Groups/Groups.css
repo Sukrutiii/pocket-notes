@@ -26,6 +26,7 @@ h3 {
 }
 
 .group {
+    position: fixed;
     background-color: white;
     font-family: 'Roboto';
     font-style: normal;

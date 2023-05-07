@@ -1,6 +1,7 @@
 .right {
+    position: fixed;
     background-color: #F7ECDC;
-    width: 100%;
+    width: 70%;
     height: 100vh;
     margin-left: 430px;
 }
