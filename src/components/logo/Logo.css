@@ -1,0 +1,9 @@
+.logo__container {
+    border-radius: 100%;
+    background-color: black;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

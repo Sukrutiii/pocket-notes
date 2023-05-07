@@ -1,0 +1,44 @@
+.display__note__container {
+    max-height: 500px;
+}
+
+.notes__container {
+    top: 0;
+    height: 400px;
+    z-index: -3;
+    overflow: scroll;
+}
+
+.display__note__container>textarea {
+    position: relative;
+    margin: 0;
+    bottom: 0px;
+    width: 97%;
+    right: 0px;
+    height: 120px;
+    padding: 0;
+    resize: none;
+    border: 10px solid rgb(209, 199, 199);
+    padding: 5px;
+    font-size: 15px;
+}
+
+.display__note__container>textarea:focus {
+    outline: none;
+}
+
+.display__note__container>button {
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+}
+
+.notes__data__container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

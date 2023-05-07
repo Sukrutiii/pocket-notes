@@ -1,8 +1,11 @@
 .right {
-    background-color: #F7ECDC;
-    width: 100%;
-    height: 100vh;
-    margin-left: 430px;
+    position: absolute;
+    right: 0;
+    width: 70%;
+    z-index: -4;
+    background: #F7ECDC;
+    height: 100%;
+
 }
 
 img {
@@ -12,4 +15,18 @@ img {
 
 .line {
     margin-top: 100px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: #E8E8E8;
+    padding-bottom: 10px;
+}
+
+.header__container>p {
+    font-size: 20px;
 }
