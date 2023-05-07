@@ -49,12 +49,16 @@ h3 {
     width: 300px;
 }
 
+.choose {
+    margin-left: 19px;
+}
+
 .create-btn {
     background-color: black;
     color: white;
     border-radius: 8px;
     width: 80px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 45vh;
     padding: 5px;
 }
