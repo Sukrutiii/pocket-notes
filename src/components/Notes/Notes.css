@@ -13,8 +13,16 @@ img {
     margin-top: 100px;
 }
 
+.lock{
+    width: 15px;
+    height: 15px;
+    margin-left: 399px;
+    margin-top: 16px;
+}
+
 .line {
     margin-top: 100px;
+    display: flex;
 }
 
 .header__container {
